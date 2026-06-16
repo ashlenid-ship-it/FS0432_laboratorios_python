@@ -1,0 +1,31 @@
+Comparación Jacobi vs Gauss-Seidel
+
+Jacobi
+-------
+Iteraciones: 4664
+Error de convergencia final: 9.998846833836339e-09
+Error máximo respecto a solución exacta: 1.1612814115047332e-05
+
+Gauss-Seidel
+------------
+Iteraciones: 2509
+Error de convergencia final: 9.961051108953178e-09
+Error máximo respecto a solución exacta: 1.415343140435954e-05
+
+---------
+Respuestas a las preguntas
+
+1. ¿Cuántas iteraciones necesitó Jacobi?
+Jacobi necesitó 4664 iteraciones.
+
+2) ¿Cuántas iteraciones necesitó Gauss-Seidel?
+Gauss-Seidel necesitó 2509 iteraciones.
+
+3) ¿Cuál método alcanzó la tolerancia en menos iteraciones?
+El método de Gauss-Seidel 
+
+4) ¿Los dos métodos producen una solución parecida a la solución analítica?
+Sí, ambos métodos producen una solución muy similar a la solución analítica, con errores pequeños del orden de 10⁻⁵.
+Gauss-Seidel converge más rápido que Jacobi porque utiliza inmediatamente los valores 
+actualizados dentro de cada iteración, mientras que Jacobi utiliza valores de la 
+iteración anterior.
